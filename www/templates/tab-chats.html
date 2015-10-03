@@ -1,0 +1,11 @@
+<ion-view view-title="Chats">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="message in messages" type="item-text-wrap">
+        <img ng-src="https://pbs.twimg.com/profile_images/479090794058379264/84TKj_qa.jpeg">
+        <h2>{{message.auteur}}</h2>
+        <p>{{message.message}}</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
